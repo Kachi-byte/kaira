@@ -1,0 +1,195 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.1);
+  margin: 0
+}
+
+.header-main{
+    display: flex;
+    margin: 10px;
+}
+
+.header_logo h1{
+font-weight: lighter;
+
+}
+
+.navbar {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.navbar span{
+ margin-left: 70px;
+}
+
+
+.navbar a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.hero-section{
+    text-align: center;
+}
+
+.hero-section h1{
+   font-size: 70px;
+   letter-spacing: 5px;
+   font-weight: 100;
+}
+
+.hero-section-images{
+    display: flex;
+margin-left: 50px;
+
+
+}
+
+.hero-section-image{
+   padding: 15px;   
+}
+
+.leather{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    word-spacing: 2px;
+}
+
+.discover{
+    color: black;
+word-spacing: 3px;
+}
+
+
+.icon-section  {
+    display: flex;
+padding: 120px;
+text-transform: capitalize;
+text-align: center;
+
+}
+.icon-section .icon {
+    padding: 10px;
+}
+.icon-section p{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: lighter;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 16px;
+} 
+.icon h1{
+    font-weight: lighter;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.accessories {
+color: rgba(0, 0, 0, 0.4);
+}
+
+.product-items{
+    display: flex;
+
+}
+
+.product-item-{
+    text-align: center;
+padding: 15px;
+}
+.product-item- p{
+    color: black;
+    font-weight: lighter;
+}
+.product-item- h3{   
+    color: black; 
+    font-weight: lighter; 
+}
+.product-item- a{
+    text-decoration: none;
+}
+
+.differ{
+    margin: 20px;
+  padding-top: 20px;
+}
+
+.header2 h1{
+    font-weight: lighter;
+    padding-left: 15px;
+}
+
+.blog2{
+    display: flex;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.blog-section{
+    background-color: white;
+    padding: 100px;
+}
+
+.blog-section h1{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 100;
+ }   
+ .blog-section p{
+     color: rgba(0, 0, 0, 0.4);
+ }
+ .blog-section  a {
+     text-decoration: none;
+     background-color: black;
+     color: white;
+  padding: 5px; 
+ }
+.quote{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 500px;
+
+}
+.quote p{
+    word-spacing: 2px;
+    font-weight: lighter;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 90px;
+    padding-top: 10px;
+}
+
+.quote h3{
+    padding: 30px;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+/*
+
+.hero-section-image:hover{
+    animation: image 1s ease-out .75 ;
+    animation-fill-mode: backwards;
+ }
+/* 
+@keyframes image{
+    0%{
+        transform: scale(1);
+    }
+    
+    100%{
+        transform: scale(0.9);
+    }
+} */ 
